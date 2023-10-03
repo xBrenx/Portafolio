@@ -3,8 +3,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import videogames from "@/public/videogames.png";
+import bookturn from "@/public/bookturn.png";
 
 export const links = [
   {
@@ -46,11 +46,18 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "VideosGames",
+    title: "Full-Stack Developer",
     description:
-      "Trabajé en este proyecto como full-stack developer como trabajo final en el bootcamp.",
-    tags: ["React", "Next.js"],
-    imageUrl: corpcommentImg,
+      "Trabajé en este proyecto grupal como full-stack developer como trabajo en el bootcamp.",
+    tags: ["React", "Next.js", "Tailwind", "Strapi.io"],
+    imageUrl: bookturn,
+  },
+  {
+    title: "Full-Stack Developer",
+    description:
+      "Trabajé en este proyecto individual como full-stack developer como trabajo en el bootcamp.",
+    tags: ["React", "Sequelize", "Axios"],
+    imageUrl: videogames,
   },
 ] as const;
 
