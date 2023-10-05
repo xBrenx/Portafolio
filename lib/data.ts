@@ -2,7 +2,6 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
 import videogames from "@/public/videogames.png";
 import bookturn from "@/public/bookturn.png";
 
@@ -40,6 +39,14 @@ export const experiencesData = [
     description:
       "Después de 6 meses de estudio me gradué como Full stack Developer.",
     icon: React.createElement(LuGraduationCap),
+    date: "2023",
+  },
+  {
+    title: "Bootcamp",
+    location: "Buenos Aires, Ar",
+    description:
+      "Trabajé como full-stack developer, agregando una página de vendedores con su respectiva base de datos.",
+    icon: React.createElement(CgWorkAlt),
     date: "2023",
   },
 ] as const;
