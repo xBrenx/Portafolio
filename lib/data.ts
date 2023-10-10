@@ -19,8 +19,8 @@ export const links = [
     hash: "#proyectos",
   },
   {
-    name: "Skills",
-    hash: "#skills",
+    name: "Habilidades",
+    hash: "#habilidades",
   },
   {
     name: "Experiencia",
@@ -52,6 +52,13 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Photoland",
+    description:
+      "Un E-comerce de camaras, incluyendo carrito, busquedas con filtros y pagos.",
+    tags: ["React", "Next.js", "Tailwind", "stripe", "Strapi"],
+    imageUrl: bookturn,
+  },
   {
     title: "Full-Stack Developer",
     description:
