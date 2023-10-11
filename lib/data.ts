@@ -42,7 +42,7 @@ export const experiencesData = [
     date: "2023",
   },
   {
-    title: "Bootcamp",
+    title: "Pagina de facturación",
     location: "Buenos Aires, Ar",
     description:
       "Trabajé como full-stack developer, agregando una página de vendedores con su respectiva base de datos.",
@@ -52,13 +52,13 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
-  {
-    title: "Photoland",
-    description:
-      "Un E-comerce de camaras, incluyendo carrito, busquedas con filtros y pagos.",
-    tags: ["React", "Next.js", "Tailwind", "stripe", "Strapi"],
-    imageUrl: bookturn,
-  },
+  // {
+  //   title: "Photoland",
+  //   description:
+  //     "Un E-comerce de camaras, incluyendo carrito, busquedas con filtros y pagos.",
+  //   tags: ["React", "Next.js", "Tailwind", "stripe", "Strapi"],
+  //   imageUrl: bookturn,
+  // },
   {
     title: "Full-Stack Developer",
     description:
